@@ -90,3 +90,8 @@ This is the place for you to write reflections:
 1. Rust tidak mendukung static variabel yang bersifat mutable agar dapat menjamin thread safety pada saat multithreading.
 
 #### Reflection Subscriber-2
+1. Belum sempat, karena waktu yang lumayan padat sehingga belum mampu untuk mengeksplor lib.rs secara mendalam. Tetapi, yang saya pahami mengenai lib.rs adalah lib.rs berisikan informasi yang diperlukan bagi aplikasi.
+
+1. Berdasarkan desain pattern dari kode ini, penambahan jenis observer akan lebih mudah karena program terbuka untuk penambahan fitur. Untuk inisiasi lebih dari satu instance Main, hanya perlu untuk mendaftarkan subscriber terhadap aplikasi
+
+1. Belum sempat
