@@ -85,5 +85,8 @@ This is the place for you to write reflections:
 ### Mandatory (Subscriber) Reflections
 
 #### Reflection Subscriber-1
+1. Hal ini dikarenakan RwLock mendukung multithreading sehingga dapat melakukan banyak pembacaan. Hal ini berbeda dengan mutex yang hanya memanfaatkan singlethreading.
+
+1. Rust tidak mendukung static variabel yang bersifat mutable agar dapat menjamin thread safety pada saat multithreading.
 
 #### Reflection Subscriber-2
